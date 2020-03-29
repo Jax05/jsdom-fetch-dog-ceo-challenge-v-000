@@ -37,5 +37,6 @@ function doChallengeTwo() {
 }
 
 function addBreedsToDOM(json) {
-
+  const breedsContainer = document.getElementById('dog-breeds');
+  console.log(json);
 }
