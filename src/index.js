@@ -51,9 +51,7 @@ function addBreedsToDOM(json) {
 }
 
 function doChallengeThree() {
-  const breeds = document.getElementsByTagName('li');
-
-  breeds.addEventListener('click', () => {
-    breeds.style.color = 'green';
+  document.getElementsByTagName('li').addEventListener('click', () => {
+    style.color = 'green';
   });
 }
