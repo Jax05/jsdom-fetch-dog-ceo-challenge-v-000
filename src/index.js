@@ -53,7 +53,7 @@ function addBreedsToDOM(json) {
 function doChallengeThree() {
   const breeds = document.getElementsByTagName('li');
 
-  for (const breed of breeds) {
+  for (const breed in breeds) {
     console.log(breed);
   }
 }
