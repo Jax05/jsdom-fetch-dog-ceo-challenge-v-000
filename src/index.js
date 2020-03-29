@@ -37,5 +37,5 @@ function doChallengeTwo() {
 }
 
 function addBreedsToDOM(json) {
-  
+
 }
