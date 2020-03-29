@@ -13,5 +13,7 @@ function doChallengeOne() {
 }
 
 function addImagesToDOM(json) {
-  console.log(json.message);
+  const dogImageContainer = document.getElementById('dog-image-container');
+
+  // create img element for each image and add link to element
 }
