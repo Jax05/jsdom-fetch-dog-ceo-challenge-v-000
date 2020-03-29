@@ -19,6 +19,8 @@ function addImagesToDOM(json) {
   for (const image of images) {
     const imgElement = document.createElement('img');
     imgElement.src = image;
+    imgElement.style.height = '100px';
+    imgElement.style.width = 'auto';
 
     dogImageContainer.append(imgElement);
   }
