@@ -13,5 +13,5 @@ function doChallengeOne() {
 }
 
 function addImagesToDOM(json) {
-  console.log(json);
+  console.log(json.message);
 }
