@@ -38,6 +38,10 @@ function doChallengeTwo() {
 }
 
 function addBreedsToDOM(json) {
+  const breeds = json.message;
   const breedsContainer = document.getElementById('dog-breeds');
-  console.log(json);
+
+  for (const breed in breeds) {
+    console.log(breed);
+  }
 }
