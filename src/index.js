@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', (event) => {
   doChallengeOne();
+  doChallengeTwo();
 });
 
 function doChallengeOne() {
