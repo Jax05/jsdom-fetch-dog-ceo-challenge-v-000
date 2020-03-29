@@ -11,3 +11,7 @@ function doChallengeOne() {
       addImagesToDOM(json);
     });
 }
+
+function addImagesToDOM(json) {
+  console.log(json);
+}
