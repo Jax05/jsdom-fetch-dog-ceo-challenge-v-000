@@ -10,6 +10,6 @@ function doChallengeOne() {
   fetch(imgUrl)
     .then((response) => response.json())
     .then((json) => {
-
+      console.log(json);
     });
 }
