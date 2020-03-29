@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', (event) => {
   doChallengeOne();
   doChallengeTwo();
+  doChallengeThree();
 });
 
 function doChallengeOne() {
@@ -47,4 +48,9 @@ function addBreedsToDOM(json) {
 
     breedsContainer.append(listElement);
   }
+}
+
+function doChallengeThree() {
+  const breed = document.getElementsbyTypeName('li');
+  console.log(breed);
 }
