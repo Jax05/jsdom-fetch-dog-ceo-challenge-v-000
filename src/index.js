@@ -51,7 +51,7 @@ function addBreedsToDOM(json) {
 }
 
 function doChallengeThree() {
-  document.getElementsByTagName('li').addEventListener('click', () => {
-    style.color = 'green';
-  });
+  const liElements = document.getElementsByTagName('li');
+
+  console.log(liElements);
 }
