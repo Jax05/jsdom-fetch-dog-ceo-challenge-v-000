@@ -42,8 +42,8 @@ function addBreedsToDOM(json) {
   const breedsContainer = document.getElementById('dog-breeds');
 
   for (const breed in breeds) {
-    const listElement = document.createElement('li');
-    listElement.innerText = breed;
+    const listElement = document.createElement('li').innerText = breed;
+    // listElement.innerText = breed;
 
     breedsContainer.append(listElement);
   }
