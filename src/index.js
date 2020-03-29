@@ -19,6 +19,7 @@ function addImagesToDOM(json) {
   for (const image of images) {
     const imgElement = document.createElement('img');
     imgElement.src = image;
+    console.log(imgElement);
     // dogImageContainer.append(imgElement);
   }
   // create img element for each image and add link to element
