@@ -51,6 +51,6 @@ function addBreedsToDOM(json) {
 }
 
 function doChallengeThree() {
-  const breed = document.getElementsbyTagName('li');
+  const breed = document.getElementsByTagName('li');
   console.log(breed);
 }
