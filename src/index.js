@@ -25,3 +25,17 @@ function addImagesToDOM(json) {
     dogImageContainer.append(imgElement);
   }
 }
+
+function doChallengeTwo() {
+  const breedUrl = 'https://dog.ceo/api/breeds/list/all';
+
+  fetch(breedUrl)
+    .then((response) => response.json())
+    .then((json) => {
+      addBreedsToDOM(json);
+    });
+}
+
+function addBreedsToDOM(json) {
+  
+}
