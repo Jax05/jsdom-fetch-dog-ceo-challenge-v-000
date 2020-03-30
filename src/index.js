@@ -52,5 +52,7 @@ function addBreedsToDOM(json) {
 
 function doChallengeThree() {
   const liElements = document.getElementsByTagName('li');
-  console.log(liElements);
+  liElements.addEventListener('click', function(event) {
+    console.log('clicked');
+  });
 }
