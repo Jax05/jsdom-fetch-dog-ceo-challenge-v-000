@@ -63,5 +63,5 @@ function doChallengeThree() {
 
 function doChallengeFour() {
   const breedFilter = document.getElementById('breed-dropdown');
-  console.log(breedFilter.selectedOptions);
+  console.log(breedFilter.value);
 }
