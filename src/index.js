@@ -1,9 +1,7 @@
-
-
 document.addEventListener('DOMContentLoaded', (event) => {
   doChallengeOne();
   doChallengeTwo();
-  // doChallengeThree();
+  // challenge three completed along with doChallengeTwo
   doChallengeFour();
 });
 
@@ -57,21 +55,6 @@ function addBreedsToDOM(json) {
 function changeColor(event){
   event.target.style.color = 'green';
 }
-
-// function doChallengeThree() {
-//   const liElements = document.getElementsByTagName('li');
-//   for (const li of liElements) {
-//     console.log(li);
-//     // li.addEventListener('click', function(event) {
-//     //   event.target.style.color = 'green';
-//     // });
-//   }
-//   // liElements.forEach(li => {
-//   //   li.addEventListener('click', event => {
-//   //     event.target.style.color = 'green';
-//   //   });
-//   // });
-// }
 
 function doChallengeFour() {
   const breedFilter = document.getElementById('breed-dropdown');
