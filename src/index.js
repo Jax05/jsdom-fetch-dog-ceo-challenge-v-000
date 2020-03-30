@@ -1,4 +1,4 @@
-const liElements = document.querySelectorAll('li');
+const liElements = document.getElementsByTagName('li');
 
 document.addEventListener('DOMContentLoaded', (event) => {
   doChallengeOne();
