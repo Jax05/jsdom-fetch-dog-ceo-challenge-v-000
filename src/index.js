@@ -72,7 +72,5 @@ function doChallengeFour() {
         li.style.display = 'none';
       }
     }
-    //change li without inner text that starts with value to display: hidden
-    // console.log(event.target.value);
   });
 }
