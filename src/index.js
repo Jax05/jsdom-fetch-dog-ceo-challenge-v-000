@@ -1,7 +1,6 @@
-
+const liElements = document.querySelectorAll('li');
 
 document.addEventListener('DOMContentLoaded', (event) => {
-  const liElements = document.querySelectorAll('li');
   doChallengeOne();
   doChallengeTwo();
   // doChallengeThree();
