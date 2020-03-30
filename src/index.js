@@ -53,8 +53,10 @@ function addBreedsToDOM(json) {
 function doChallengeThree() {
   const liElements = document.getElementsByTagName('li');
 
-  for (const li in liElements) {
-    console.log(li.style.color);
+  for (const li of liElements) {
+    for (const breed of li) {
+      console.log(breed);
+    }
   }
   // console.log(liElements);
 }
