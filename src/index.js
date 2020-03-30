@@ -46,8 +46,8 @@ function addBreedsToDOM(json) {
   for (const breed in breeds) {
     const listElement = document.createElement('li');
     listElement.innerText = breed;
-    listElement.addEventListener('click', changeColor);
 
+    listElement.addEventListener('click', changeColor);
     breedsContainer.append(listElement);
   }
 }
