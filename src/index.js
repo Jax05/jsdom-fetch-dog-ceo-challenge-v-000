@@ -67,9 +67,9 @@ function doChallengeFour() {
   breedFilter.addEventListener('change', function(event) {
     for (const li of liElements) {
       if (li.innerText.startsWith(event.target.value)) {
-        li.style.display = 'block';
+        li.style.display = '';
       } else {
-        li.style.display = 'auto';
+        li.style.display = 'none';
       }
     }
     //change li without inner text that starts with value to display: hidden
