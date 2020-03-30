@@ -54,7 +54,7 @@ function doChallengeThree() {
   const liElements = document.getElementsByTagName('li');
 
   for (const li in liElements) {
-    console.log(li);
+    console.log(li.style.color);
   }
   // console.log(liElements);
 }
