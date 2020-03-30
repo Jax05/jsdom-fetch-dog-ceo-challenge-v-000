@@ -54,7 +54,7 @@ function addBreedsToDOM(json) {
 }
 
 function doChallengeThree() {
-  for (let li in liElements) {
+  for (let li of liElements) {
     li.addEventListener('click', function(event) {
       event.target.style.color = 'green';
     });
