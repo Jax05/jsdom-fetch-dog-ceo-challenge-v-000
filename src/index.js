@@ -1,3 +1,5 @@
+const breedsContainer = document.getElementById('dog-breeds');
+
 document.addEventListener('DOMContentLoaded', (event) => {
   doChallengeOne();
   doChallengeTwo();
@@ -41,7 +43,6 @@ function doChallengeTwo() {
 
 function addBreedsToDOM(json) {
   const breeds = json.message;
-  const breedsContainer = document.getElementById('dog-breeds');
 
   for (const breed in breeds) {
     const listElement = document.createElement('li');
