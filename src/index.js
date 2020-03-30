@@ -67,7 +67,8 @@ function doChallengeFour() {
   breedFilter.addEventListener('change', function(event) {
     for (const li of liElements) {
       if (li.innerText.startsWith(event.target.value)) {
-        li.style.display = 'hidden';
+        // li.style.display = 'hidden';
+        console.log(li.innerText)
       }
     }
     //change li without inner text that starts with value to display: hidden
