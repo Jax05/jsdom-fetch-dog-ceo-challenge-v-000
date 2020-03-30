@@ -65,7 +65,7 @@ function doChallengeFour() {
   const breedFilter = document.getElementById('breed-dropdown');
 
   breedFilter.addEventListener('change', function(event) {
-    //change li with inner text equal to value to display: hidden
+    //change li with inner text that starts with value to display: hidden
     console.log(event.target.value);
   });
 }
