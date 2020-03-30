@@ -52,6 +52,6 @@ function addBreedsToDOM(json) {
 
 async function doChallengeThree() {
   await doChallengeTwo();
-  const liElements = document.getElementsByTypeName('li');
+  const liElements = document.getElementsByTagName('li');
   console.log(liElements);
 }
