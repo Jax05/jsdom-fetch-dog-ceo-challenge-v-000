@@ -54,11 +54,16 @@ function addBreedsToDOM(json) {
 }
 
 function doChallengeThree() {
-  for (const li in liElements) {
-    document.addEventListener('click', function(event) {
+  // for (const li in liElements) {
+  //   document.addEventListener('click', function(event) {
+  //     event.target.style.color = 'green';
+  //   });
+  // }
+  liElements.forEach(li => {
+    li.addEventListener('click', event => {
       event.target.style.color = 'green';
     });
-  }
+  });
 }
 
 function doChallengeFour() {
