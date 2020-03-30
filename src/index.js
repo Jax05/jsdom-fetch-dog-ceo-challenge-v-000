@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   doChallengeOne();
   doChallengeTwo();
   doChallengeThree();
+  doChallengeFour();
 });
 
 function doChallengeOne() {
@@ -62,5 +63,5 @@ function doChallengeThree() {
 
 function doChallengeFour() {
   const breedFilter = document.getElementById('breed-dropdown');
-  console.log(breedFilter.selectedOptions || 'nothing');
+  console.log(breedFilter.options);
 }
