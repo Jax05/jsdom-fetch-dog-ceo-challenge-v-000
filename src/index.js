@@ -63,5 +63,8 @@ function doChallengeThree() {
 
 function doChallengeFour() {
   const breedFilter = document.getElementById('breed-dropdown');
-  console.log(breedFilter.value);
+
+  breedFilter.addEventListener('change', function(event) {
+    console.log(event.target.value);
+  });
 }
