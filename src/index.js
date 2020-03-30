@@ -3,7 +3,7 @@ const liElements = document.querySelectorAll('li');
 document.addEventListener('DOMContentLoaded', (event) => {
   doChallengeOne();
   doChallengeTwo();
-  doChallengeThree();
+  // doChallengeThree();
   doChallengeFour();
 });
 
