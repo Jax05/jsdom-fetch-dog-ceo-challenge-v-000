@@ -69,7 +69,7 @@ function doChallengeFour() {
       if (li.innerText.startsWith(event.target.value)) {
         li.style.display = 'block';
       } else {
-        li.style.display = 'none';
+        li.style.display = 'auto';
       }
     }
     //change li without inner text that starts with value to display: hidden
