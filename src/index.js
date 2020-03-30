@@ -28,7 +28,7 @@ function addImagesToDOM(json) {
   }
 }
 
-function doChallengeTwo() {
+async function doChallengeTwo() {
   const breedUrl = 'https://dog.ceo/api/breeds/list/all';
 
   fetch(breedUrl)
