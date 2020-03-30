@@ -52,9 +52,15 @@ function addBreedsToDOM(json) {
 
 function doChallengeThree() {
   const liElements = document.getElementsByTagName('li');
+  
   for (const li in liElements) {
     document.addEventListener('click', function(event) {
       event.target.style.color = 'green';
     });
   }
+}
+
+function doChallengeFour() {
+  const breedFilter = document.getElementById('breed-dropdown');
+  console.log(breedFilter.options);
 }
