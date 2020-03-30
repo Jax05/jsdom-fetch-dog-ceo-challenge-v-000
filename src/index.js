@@ -50,8 +50,7 @@ function addBreedsToDOM(json) {
   }
 }
 
-async function doChallengeThree() {
-  await doChallengeTwo();
+function doChallengeThree() {
   const liElements = document.getElementsByTagName('li');
-  console.log(liElements);
+  console.log(liElements.length);
 }
