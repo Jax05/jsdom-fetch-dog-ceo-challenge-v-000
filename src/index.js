@@ -1,4 +1,5 @@
-
+const breedFilter = document.getElementById('breed-dropdown');
+const liElements = document.querySelectorAll('li');
 
 document.addEventListener('DOMContentLoaded', (event) => {
   doChallengeOne();
@@ -67,9 +68,6 @@ function doChallengeThree() {
 }
 
 function doChallengeFour() {
-  const breedFilter = document.getElementById('breed-dropdown');
-  const liElements = document.querySelectorAll('li');
-
   breedFilter.addEventListener('change', function(event) {
     for (const li of liElements) {
       if (li.innerText.startsWith(event.target.value)) {
