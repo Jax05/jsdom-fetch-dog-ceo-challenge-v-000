@@ -58,7 +58,7 @@ function doChallengeThree() {
   // console.log(liElements);
   for (const li of liElements) {
     li.addEventListener('click', function(event) {
-      li.style.color = 'green';
+      event.target.style.color = 'green';
     });
   }
   // liElements.forEach(li => {
