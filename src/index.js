@@ -69,7 +69,7 @@ function doChallengeThree() {
 function doChallengeFour() {
   const breedFilter = document.getElementById('breed-dropdown');
   const liElements = document.getElementsByTagName('li');
-  
+
   breedFilter.addEventListener('change', function(event) {
     for (const li of liElements) {
       if (li.innerText.startsWith(event.target.value)) {
