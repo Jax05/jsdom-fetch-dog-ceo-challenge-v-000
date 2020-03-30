@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', (event) => {
   doChallengeOne();
   doChallengeTwo();
-  doChallengeThree();
+  // doChallengeThree();
   doChallengeFour();
 });
 
@@ -48,25 +48,30 @@ function addBreedsToDOM(json) {
   for (const breed in breeds) {
     const listElement = document.createElement('li');
     listElement.innerText = breed;
+    listElement.addEventListener('click', changeColor);
 
     breedsContainer.append(listElement);
   }
 }
 
-function doChallengeThree() {
-  const liElements = document.getElementsByTagName('li');
-  for (const li of liElements) {
-    console.log(li);
-    // li.addEventListener('click', function(event) {
-    //   event.target.style.color = 'green';
-    // });
-  }
-  // liElements.forEach(li => {
-  //   li.addEventListener('click', event => {
-  //     event.target.style.color = 'green';
-  //   });
-  // });
+function changeColor(event){
+  event.target.style.color = 'green';
 }
+
+// function doChallengeThree() {
+//   const liElements = document.getElementsByTagName('li');
+//   for (const li of liElements) {
+//     console.log(li);
+//     // li.addEventListener('click', function(event) {
+//     //   event.target.style.color = 'green';
+//     // });
+//   }
+//   // liElements.forEach(li => {
+//   //   li.addEventListener('click', event => {
+//   //     event.target.style.color = 'green';
+//   //   });
+//   // });
+// }
 
 function doChallengeFour() {
   const breedFilter = document.getElementById('breed-dropdown');
