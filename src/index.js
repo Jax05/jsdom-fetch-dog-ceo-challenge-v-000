@@ -59,11 +59,11 @@ function doChallengeThree() {
   //     event.target.style.color = 'green';
   //   });
   // }
-  liElements.forEach(li => {
-    li.addEventListener('click', event => {
-      event.target.style.color = 'green';
-    });
-  });
+  // liElements.forEach(li => {
+  //   li.addEventListener('click', event => {
+  //     event.target.style.color = 'green';
+  //   });
+  // });
 }
 
 function doChallengeFour() {
